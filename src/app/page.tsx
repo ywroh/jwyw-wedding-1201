@@ -8,7 +8,7 @@ export default function Home() {
                 <h1 className="text-3xl font-bold text-2xl leading-tight">지원 용우 결혼식</h1>
                 <Image
                     // className="dark:invert"
-                    src="/images/jeremy-wong-weddings-464ps_nOflw-unsplash.jpg"
+                    src="https://ywroh.github.io/jwyw-wedding-1201/images/jeremy-wong-weddings-464ps_nOflw-unsplash.jpg"
                     alt="Next.js logo"
                     width={480}
                     height={38}
