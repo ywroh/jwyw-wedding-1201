@@ -1,41 +1,78 @@
 import Image from "next/image";
+import {prefix} from "@/config/config";
 
 export default function Home() {
     return (
         <div
             className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
             <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-                <h1 className="text-3xl font-bold text-2xl leading-tight">지원 용우 결혼식</h1>
                 <Image
                     // className="dark:invert"
-                    src="https://ywroh.github.io/jwyw-wedding-1201/images/jeremy-wong-weddings-464ps_nOflw-unsplash.jpg"
+                    src={`${prefix}/images/main.png`}
                     alt="Next.js logo"
                     width={480}
                     height={38}
                     priority
                 />
-                <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-                    <li className="mb-2">
-                        지원이랑 용우가 결혼합니다.
-                    </li>
-                    <li className="mb-2">
-                        언제: 2024년 12월 1일 일요일 오후 2시
-                    </li>
-                    <li className="mb-2">
-                        어디서: 브라이드 밸리 웨딩홀(서울시 강남구 강남대로 262 B1층)
-                    </li>
-                    <li className="mb-2">
-                        오시는 방법: 양재역(3호선, 신분당선) 3번출구로 나와서 직진 200m
-                    </li>
-                    {/*<li className="mb-2">*/}
-                    {/*  Get started by editing{" "}*/}
-                    {/*  <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">*/}
-                    {/*    src/app/page.tsx*/}
-                    {/*  </code>*/}
-                    {/*  .*/}
-                    {/*</li>*/}
-                    {/*<li>Save and see your changes instantly.</li>*/}
-                </ol>
+                <Image
+                    // className="dark:invert"
+                    src={`${prefix}/images/flower.png`}
+                    alt="Next.js logo"
+                    width={160}
+                    height={38}
+                    priority
+                />
+                <h1 className="text-3xl font-bold text-2xl leading-tight">용우 ❤️ 지원 결혼합니다.</h1>
+                <div>용감한 사나이 용우와 지혜롭고 귀여운 지원이가 만나<br/>
+                    기쁠때나 슬플때나 항상 옆에서 서로 배려하고 사랑하며<br/>
+                    오순도순 평생을 함께 하려합니다.<br/>
+                    소중한 시간을 내어 저희 결혼식에 오셔서 많은 축하 부탁드립니다.
+                </div>
+                <div>
+                    <span>노종채 • 최순남 의 장남</span>
+                    <span>노용우</span>
+                </div>
+                <div>
+                    <span>故 김남진 • 박희자 의 장녀</span>
+                    <span>김지원</span>
+                </div>
+                <div>
+                    2024년 12월 01일 일요일 오후2시<br/>
+                    양재 브라이드밸리 웨딩홀
+                </div>
+                <div>
+                    [브라이드밸리 웨딩홀]
+                </div>
+                <div>
+                    서울특별시 강남구 강남대로 262, 서울특별시 강남구 도곡동 949-3<br/>
+                    양재 캠코 타워 B1층 브라이드밸리 웨딩홀
+                </div>
+                <div>
+                    [지하주차장 250대 수용, 웨딩홀 로비에서 차량번호 등록시 2시간 무료주차]<br/>
+                    [지하철]<br/>
+                    3호선 신분당선 양재역 3번출구 도보2분(200m)<br/>
+                    [버스]<br/>
+                    뱅뱅사거리 정류장 하차<br/>
+                    간선 140, 400, 402, 421, 440, 441, 470 / 직행 1550, 1570, 3002, 3007, 9700
+                </div>
+                <Image
+                    // className="dark:invert"
+                    src={`${prefix}/images/map.png`}
+                    alt="Next.js logo"
+                    width={480}
+                    height={38}
+                    priority
+                />
+                {/*<ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">*/}
+                {/*    <li className="mb-2">*/}
+                {/*      Get started by editing{" "}*/}
+                {/*      <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">*/}
+                {/*        src/app/page.tsx*/}
+                {/*      </code>*/}
+                {/*      .*/}
+                {/*    </li>*/}
+                {/*    <li>Save and see your changes instantly.</li>*/}
+                {/*</ol>*/}
 
                 {/*<div className="flex gap-4 items-center flex-col sm:flex-row">*/}
                 {/*    <a*/}

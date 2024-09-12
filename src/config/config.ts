@@ -1,0 +1,1 @@
+export const prefix = process.env.NODE_ENV !== 'production' ? "" : 'https://ywroh.github.io/jwyw-wedding-1201'
