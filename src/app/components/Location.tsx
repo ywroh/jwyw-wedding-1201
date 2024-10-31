@@ -21,25 +21,6 @@ const TitleWrapper = styled.div`
     gap: 30px;
 `;
 
-const WeddingInvitation = styled.p`
-    font-size: 1.5vh;
-    opacity: 0.45;
-    margin-bottom: 16;
-`;
-
-const GroomBride = styled.p`
-    font-size: 3.5vh;
-    font-weight: bold;
-    opacity: 0.9;
-    margin-bottom: 16;
-`;
-
-const Schedule = styled.p`
-    font-size: 2vh;
-    opacity: 0.65;
-    margin-bottom: 24;
-`;
-
 export default function Location() {
     return (
         <Layout>
