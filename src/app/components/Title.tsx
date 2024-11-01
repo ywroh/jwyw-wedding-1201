@@ -12,7 +12,7 @@ const Layout = styled.div`
 `;
 
 const TitleWrapper = styled.div`
-    padding: 30px 0 0;
+    padding: 100px 0 50px;
     width: 100%;
     text-align: center;
 `;
@@ -54,17 +54,17 @@ export default function Title() {
                     용우 ♥️ 지원
                 </GroomBride>
             </TitleWrapper>
-            <div style={{display: "flex", flexDirection: "column",}}>
+            <div style={{display: "flex", flexDirection: "column", gap: "50px"}}>
                 <div style={{
                     display: "flex",
                     justifyContent: "center",
                 }}>
                     <Image
                         // className="dark:invert"
-                        src={`${prefix}/assets/images/IMG_2811.png`}
+                        src={`${prefix}/assets/images/IMG_2811_2.png`}
                         alt="Next.js logo"
-                        width={700}
-                        height={700}
+                        width={400}
+                        height={400}
                         priority
                         objectFit={"cover"}
                     />
