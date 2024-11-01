@@ -24,7 +24,7 @@ export default function Message() {
         <Layout>
             <TitleWrapper>
                 <div style={{margin: "0 auto"}}>
-                    <h1 className="text-3xl font-bold text-2xl leading-tight">용우 ❤️ 지원 결혼합니다.</h1>
+                    <h1 className="text-3xl font-bold text-2xl leading-tight">용우 ♥︎ 지원 결혼합니다.</h1>
                 </div>
                 <div style={{padding: "0px 20px", textAlign: "center", lineHeight: "2rem", wordBreak: "keep-all"}}>용감하고
                     다정한 사나이 용우와<br/>지혜롭고 귀여운 지원이가

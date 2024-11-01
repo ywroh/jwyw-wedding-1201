@@ -7,6 +7,7 @@ import Gallery from "@/app/components/Gallery";
 import Location from "@/app/components/Location";
 import CongratulatoryMoney from "@/app/components/CongratulatoryMoney";
 import Share from "@/app/components/Share";
+import Feast from "@/app/components/Feast";
 
 export default function Home() {
     const handleConfettiSnow = async () => {
@@ -104,8 +105,9 @@ export default function Home() {
         <main className="flex flex-col row-start-2 items-center sm:items-start">
             <Title/>
             <Message/>
-            <Gallery/>
             <Location/>
+            <Feast/>
+            <Gallery/>
             <CongratulatoryMoney/>
             <Share/>
         </main>

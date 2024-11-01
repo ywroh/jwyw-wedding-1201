@@ -1,6 +1,6 @@
 import { CheckCircleTwoTone } from "@ant-design/icons";
 import { Button, Divider, Modal, message } from "antd";
-import { useState } from "react";
+import React, { useState } from "react";
 import CopyToClipboard from "react-copy-to-clipboard";
 import styled from "styled-components";
 
@@ -11,24 +11,6 @@ const Wrapper = styled.div`
   text-align: center;
     border-bottom: 1px solid lightgray;
     background: rgba(255, 182, 193, 0.2);
-`;
-
-const Title = styled.p`
-    font-size: 2vh;
-    font-weight: bold;
-    opacity: 0.85;
-`;
-
-const Content = styled.p`
-    font-size: 1.5vh;
-    line-height: 1.75;
-    opacity: 0.75;
-`;
-
-const SubContent = styled.p`
-    font-size: 1.3vh;
-    line-height: 1.75;
-    opacity: 0.75;
 `;
 
 const Description = styled.p`
@@ -50,26 +32,28 @@ export default function CongratulatoryMoney() {
   return (
       <Wrapper>
           <Divider plain style={{marginTop: 0, marginBottom: 32}}>
-              <Title>축하의 마음을 전하세요</Title>
-          </Divider>
-          <Content>축하의 마음을 담아 축의금을 전달해 보세요.</Content>
+              <div style={{margin: "0 auto"}}>
+                  <h1 className="text-3xl font-bold text-2xl leading-tight">축하의 마음을 전하세요</h1>
+              </div>
+              </Divider>
+          <div>축하의 마음을 담아 축의금을 전달해 보세요.</div>
           <div style={{margin: "20px 0px", display: 'flex', justifyContent: 'center', gap: "50px"}}>
-          <ContactButton onClick={() => setGroomVisible(true)}>
-              <CheckCircleTwoTone
-                  style={{fontSize: 64, marginBottom: 16}}
-                  twoToneColor="#829fe0"
-              />
-              <br/>
-              <SubContent>신랑측 계좌번호 확인</SubContent>
-          </ContactButton>
-          <ContactButton onClick={() => setBrideVisible(true)}>
-              <CheckCircleTwoTone
-                  style={{fontSize: 64, marginBottom: 16}}
-                  twoToneColor="#fe7daf"
-              />
-              <br/>
-              <SubContent>신부측 계좌번호 확인</SubContent>
-          </ContactButton>
+              <ContactButton onClick={() => setGroomVisible(true)}>
+                  <CheckCircleTwoTone
+                      style={{fontSize: 64, marginBottom: 16}}
+                      twoToneColor="#829fe0"
+                  />
+                  <br/>
+                  <div>신랑측 계좌번호 확인</div>
+              </ContactButton>
+              <ContactButton onClick={() => setBrideVisible(true)}>
+                  <CheckCircleTwoTone
+                      style={{fontSize: 64, marginBottom: 16}}
+                      twoToneColor="#fe7daf"
+                  />
+                  <br/>
+                  <div>신부측 계좌번호 확인</div>
+              </ContactButton>
           </div>
           <Modal
               title={<b>신랑측 계좌번호</b>}

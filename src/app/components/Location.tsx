@@ -38,15 +38,15 @@ export default function Location() {
                         priority
                     />
                 </div>
-                <div style={{display: "flex", flexDirection: "column", gap: "20px"}}>
+                <div style={{display: "flex", flexDirection: "column", gap: "20px", padding: "20px"}}>
                     <div>
                         [브라이드밸리 웨딩홀]<br/>
-                        서울특별시 강남구 강남대로 262, 서울특별시 강남구 도곡동 949-3<br/>
+                        서울특별시 강남구 강남대로 262<br/>서울특별시 강남구 도곡동 949-3<br/>
                         양재 캠코 타워 B1층 브라이드밸리 웨딩홀
                     </div>
                     <div>
                         [주차 안내]<br/>
-                        지하주차장 250대 수용, 웨딩홀 로비에서 차량번호 등록시 2시간 무료주차
+                        지하주차장 250대 수용<br/>웨딩홀 로비에서 차량번호 등록시 2시간 무료주차
                     </div>
                     <div>
                         [지하철]<br/>
@@ -55,7 +55,7 @@ export default function Location() {
                     <div>
                         [버스]<br/>
                         뱅뱅사거리 정류장 하차<br/>
-                        간선 140, 400, 402, 421, 440, 441, 470 / 직행 1550, 1570, 3002, 3007, 9700
+                        간선 140, 400, 402, 421, 440, 441, 470<br/>직행 1550, 1570, 3002, 3007, 9700
                     </div>
                 </div>
             </TitleWrapper>
