@@ -12,9 +12,13 @@ const Layout = styled.div`
 `;
 
 const TitleWrapper = styled.div`
-    padding: 100px 0 50px;
+    padding: 50px 0;
     width: 100%;
+    height: 100vh;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 `;
 
 const WeddingInvitation = styled.p`
@@ -41,20 +45,20 @@ export default function Title() {
     return (
         <Layout>
             <TitleWrapper>
-                <div style={{display: "flex", justifyContent: "center"}}><Image
-                    // className="dark:invert"
-                    src={`${prefix}/assets/images/flower.png`}
-                    alt="Next.js logo"
-                    width={100}
-                    height={38}
-                    priority
-                /></div>
-                <WeddingInvitation>WEDDING INVITATION</WeddingInvitation>
-                <GroomBride>
-                    용우 ♥️ 지원
-                </GroomBride>
-            </TitleWrapper>
-            <div style={{display: "flex", flexDirection: "column", gap: "50px"}}>
+                <div>
+                    <div style={{display: "flex", justifyContent: "center"}}><Image
+                        // className="dark:invert"
+                        src={`${prefix}/assets/images/flower.png`}
+                        alt="Next.js logo"
+                        width={100}
+                        height={38}
+                        priority
+                    /></div>
+                    <WeddingInvitation>WEDDING INVITATION</WeddingInvitation>
+                    <GroomBride>
+                        용우 ♥️ 지원
+                    </GroomBride>
+                </div>
                 <div style={{
                     display: "flex",
                     justifyContent: "center",
@@ -74,7 +78,7 @@ export default function Title() {
                     <br/>
                     양재 브라이드밸리 웨딩홀
                 </Schedule>
-            </div>
+            </TitleWrapper>
         </Layout>
     );
 }
