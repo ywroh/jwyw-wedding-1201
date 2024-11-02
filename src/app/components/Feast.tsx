@@ -40,9 +40,10 @@ export default function Feast() {
                     <h1 className="text-3xl font-bold text-2xl leading-tight">[광주 출발 전세버스]</h1>
                 </div>
                 <div style={{padding: "0px 20px", textAlign: "center", lineHeight: "2rem", wordBreak: "keep-all"}}>
-                    버스번호 : 추가 예정<br/>
+                    버스번호 : 추가 예정(28인승 리무진)<br/>
                     기사님 성함 및 연락처 : 추가 예정<br/>
-                    탑승장소 및 시간 : 추가 예정
+                    탑승장소 : 추가 예정<br/>
+                    탑승시간 : 12/1일 08:00 출발 예정
                 </div>
             </TitleWrapper>
         </Layout>
