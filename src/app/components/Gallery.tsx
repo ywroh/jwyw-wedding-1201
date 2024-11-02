@@ -15,8 +15,16 @@ const images = [
     thumbnail: "./assets/images/IMG_2891.PNG",
   },
   {
-    original: "./assets/images/ryw_0106z9.jpg",
-    thumbnail: "./assets/images/ryw_0106z9.jpg",
+    original: "./assets/images/IMG_2898.jpeg",
+    thumbnail: "./assets/images/IMG_2898.jpeg",
+  },
+  {
+    original: "./assets/images/IMG_2899.jpeg",
+    thumbnail: "./assets/images/IMG_2899.jpeg",
+  },
+  {
+    original: "./assets/images/IMG_2900.jpeg",
+    thumbnail: "./assets/images/IMG_2900.jpeg",
   },
 ];
 
