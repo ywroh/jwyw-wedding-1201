@@ -42,7 +42,7 @@ export default function Feast() {
                 <div style={{padding: "0px 20px", textAlign: "center", lineHeight: "2rem", wordBreak: "keep-all"}}>
                     버스번호 : 추가 예정(28인승 리무진)<br/>
                     기사님 성함 및 연락처 : 추가 예정<br/>
-                    탑승장소 : 문화예술회관 후문<br/>
+                    탑승장소 : 비엔날레 주차장(광주 북구 매곡동 487-7)<br/>
                     탑승시간 : 12월 1일 일요일 07:30 ~ 08:00<br/>
                     출발시간 : 12월 1일 일요일 08:00 출발 예정
                 </div>
