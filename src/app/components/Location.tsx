@@ -31,7 +31,7 @@ export default function Location() {
                 <div style={{display: "flex", justifyContent: "center"}}>
                     <Image
                         // className="dark:invert"
-                        src={`${prefix}/assets/images/map.png`}
+                        src={`${prefix}/assets/images/bride-map.jpg`}
                         alt="Next.js logo"
                         width={480}
                         height={38}
