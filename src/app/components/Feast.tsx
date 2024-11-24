@@ -23,28 +23,28 @@ export default function Feast() {
     return (
         <Layout>
             <TitleWrapper>
-                <div style={{margin: "0 auto"}}>
-                    <h1 className="text-3xl font-bold text-2xl leading-tight">[신부 선잔치 안내]</h1>
-                </div>
-                <div style={{padding: "0px 20px", textAlign: "center", lineHeight: "2rem", wordBreak: "keep-all"}}>
-                    결혼에 참석하지 못하시는 분들을 위해<br/>
-                    작은 피로연 자리를 마련하였습니다.<br/>
-                    귀한 걸음으로 축복해주시면 감사하겠습니다.<br/>
-                    <br/>
-                    2024년 11월 17일 일요일 오전 11시 ~ 오후 2시<br/>
-                    원통 복지타운 별관<br/>
-                    (강원 인제군 북면 금강로 62)
-                </div>
-                <div style={{height: "30px"}}></div>
+                {/*<div style={{margin: "0 auto"}}>*/}
+                {/*    <h1 className="text-3xl font-bold text-2xl leading-tight">[신부 선잔치 안내]</h1>*/}
+                {/*</div>*/}
+                {/*<div style={{padding: "0px 20px", textAlign: "center", lineHeight: "2rem", wordBreak: "keep-all"}}>*/}
+                {/*    결혼에 참석하지 못하시는 분들을 위해<br/>*/}
+                {/*    작은 피로연 자리를 마련하였습니다.<br/>*/}
+                {/*    귀한 걸음으로 축복해주시면 감사하겠습니다.<br/>*/}
+                {/*    <br/>*/}
+                {/*    2024년 11월 17일 일요일 오전 11시 ~ 오후 2시<br/>*/}
+                {/*    원통 복지타운 별관<br/>*/}
+                {/*    (강원 인제군 북면 금강로 62)*/}
+                {/*</div>*/}
+                {/*<div style={{height: "30px"}}></div>*/}
                 <div style={{margin: "0 auto"}}>
                     <h1 className="text-3xl font-bold text-2xl leading-tight">[광주 출발 전세버스]</h1>
                 </div>
                 <div style={{padding: "0px 20px", textAlign: "center", lineHeight: "2rem", wordBreak: "keep-all"}}>
-                    버스번호 : 추가 예정(28인승 리무진)<br/>
-                    기사님 성함 및 연락처 : 추가 예정<br/>
+                    버스번호 : 전남 70자7222 (28인승 리무진)<br/>
+                    기사님 성함 및 연락처 : 박명완 / 010-3624-2371<br/>
                     탑승장소 : 비엔날레 주차장(광주 북구 매곡동 487-7)<br/>
-                    탑승시간 : 12월 1일 일요일 07:30 ~ 08:00<br/>
-                    출발시간 : 12월 1일 일요일 08:00 출발 예정
+                    탑승시간 : 12월 1일 일요일 08:00 ~ 08:30<br/>
+                    출발시간 : 12월 1일 일요일 08:30 출발 예정
                 </div>
             </TitleWrapper>
         </Layout>
